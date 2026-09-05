@@ -10,7 +10,7 @@ input_csv = "step1resultsummary.csv"
 # ============
 # Output file
 # ============
-output_csv = "pooled_binomial_summary.csv"
+output_csv = "step1pooled_binomial_summary.csv"
 
 alpha = 0.05
 
