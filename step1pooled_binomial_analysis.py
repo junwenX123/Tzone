@@ -5,7 +5,7 @@ from scipy.stats import binomtest
 # ============
 # Input file
 # ============
-input_csv = "parameter_sweep_summary_after_burnin.csv"
+input_csv = "step1resultsummary.csv"
 
 # ============
 # Output file
