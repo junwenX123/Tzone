@@ -360,12 +360,12 @@ def run_experiment_2(sim: Any, out_dir: Path) -> pd.DataFrame:
     base = make_base_parameters(sim)
     rows: List[Dict[str, Any]] = []
 
-    print("\n=== Experiment 2: activation localization x death/ERK sweep ===")
+    print("\n=== Activation localization x death/ERK sweep ===")
     for ar_idx, ar in enumerate(ACTIVATION_REGIMES):
         for er_idx, er in enumerate(ERK_REGIMES):
             for ld_idx, lambda_d in enumerate(LAMBDA_D_VALUES):
                 base_scenario = (
-                    f"E2_{ar['activation_regime']}"
+                    f"{ar['activation_regime']}"
                     f"_{er['erk_regime']}"
                     f"_ld{pstr(lambda_d)}"
                 )
@@ -395,7 +395,7 @@ def run_experiment_2(sim: Any, out_dir: Path) -> pd.DataFrame:
                         row_from_fixed_death_result(
                             sim,
                             result,
-                            experiment="E2_activation_localization_x_deathERK",
+                            experiment="activation_localization_x_deathERK",
                             base_scenario=base_scenario,
                             replicate=rep,
                             activation_regime=ar["activation_regime"],
@@ -416,7 +416,7 @@ def run_experiment_2(sim: Any, out_dir: Path) -> pd.DataFrame:
     ]
     pooled = pooled_binomial(df, group_cols)
     pooled.to_csv(
-        out_dir / "experiment2_activation_localization_deathERK_pooled_binomial.csv",
+        out_dir / "activation_localization_deathERK_pooled_binomial.csv",
         index=False,
     )
 
@@ -437,7 +437,7 @@ def run_experiment_2(sim: Any, out_dir: Path) -> pd.DataFrame:
         max_p_value=("pooled_binomial_p_value_greater", "max"),
     ).reset_index()
     robust.to_csv(
-        out_dir / "experiment2_activation_regime_robustness_binomial.csv",
+        out_dir / "activation_regime_robustness_binomial.csv",
         index=False,
     )
 
