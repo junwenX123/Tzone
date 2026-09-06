@@ -44,8 +44,7 @@ Des graines aléatoires indépendantes sont attribuées aux réplicats.
 
 Posons
 
-$$K=\#\{\text{morts analysées situées dans la zone en T}\},$$
-
+$$K=\#\{\text{morts analysées situées dans la zone en T}\}$$
 et désignons par $N$ le nombre total de morts analysées.
 
 Sous l'hypothèse nulle d'homogénéité spatiale,
