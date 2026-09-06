@@ -2,14 +2,6 @@
 
 Ce dépôt rassemble les expériences de simulation et les analyses statistiques dédiées à l'étude de l'enrichissement spatial des morts cellulaires observées au sein d'une **zone spatiale en forme de T** prédéfinie.
 
-Le modèle intègre :
-
-- des événements d'activation stochastiques ;
-- des régions actives spatiales générées par ces activations ;
-- des événements de mort cellulaire observés ;
-- une protection locale médiée par ERK consécutive à chaque mort cellulaire ;
-- une région fixe en forme de T présentant une intensité d'activation basale accrue.
-
 Les simulations reposent sur un **algorithme de Gillespie événementiel** couplé à une méthode d'amincissement (thinning).
 
 L'objectif principal consiste à identifier les régimes paramétriques sous lesquels les morts observées se concentrent de manière significative dans la zone en T, et plus particulièrement à dissocier les effets :
