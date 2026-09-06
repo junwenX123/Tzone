@@ -167,9 +167,13 @@ Trois régimes d'activation y sont confrontés :
 | `medium_activation` | 2.5 | 3.0 | localisation intermédiaire |
 | `local_activation` | 5.0 | 3.0 | disques actifs restreints et éphémères |
 
-Les paramètres de bruit de fond d'activation sont fixés à
+Les paramètres d'intensité d'activation sont fixés à
 
-$$\lambda_{a,T}=0.5, \qquad \lambda_{a,c}=0.005.$$
+$$
+\lambda_{a,1}=5.0,\qquad
+\lambda_{a,T}=0.5,\qquad
+\lambda_{a,c}=0.005.
+$$
 
 Pour chacun des trois régimes d'activation, l'expérience fait également varier
 
