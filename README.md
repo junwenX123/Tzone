@@ -44,7 +44,7 @@ Des graines aléatoires indépendantes sont attribuées aux réplicats.
 
 Posons
 
-$$K=\#\{\text{morts analysées situées dans la zone en T}\}$$
+$$K=\card\{\text{morts analysées situées dans la zone en T}\}$$
 et désignons par $N$ le nombre total de morts analysées.
 
 Sous l'hypothèse nulle d'homogénéité spatiale,
@@ -66,8 +66,6 @@ $$P_{H_0}(X\ge K), \qquad X\sim\mathrm{Binomiale}(N,p_0).$$
 Le seuil de significativité nominal retenu pour les analyses actuelles est
 
 $$\alpha=0.05.$$
-
-Aucune correction de Bonferroni n'est appliquée sur les analyses binomiales agrégées finales.
 
 ---
 
