@@ -117,7 +117,8 @@ Chaque jeu de paramètres est simulé sur plusieurs réplicats indépendants.
 
 L'Étape 2 fixe un régime d'activation où l'enrichissement spatial dans la zone en T est déjà clairement caractérisé :
 
-$$\lambda_{a,T}=0.5, \qquad \lambda_{a,c}=0.005, \qquad \beta_{a,R}=2.5, \qquad \beta_{a,T}=3.0.$$
+$$\lambda_{a,1}=5.0,\qquad \lambda_{a,T}=0.5, \qquad \lambda_{a,c}=0.005, \qquad \beta_{a,R}=2.5, \qquad \beta_{a,T}=3.0.$$
+Les paramètres d'intensité d'activation sont fixés à
 
 Les paramètres régissant la mort et la boucle ERK varient ensuite de façon systématique.
 
