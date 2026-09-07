@@ -99,6 +99,16 @@ Ces simulations étudient plus particulièrement :
 
 Chaque jeu de paramètres est simulé sur plusieurs réplicats indépendants.
 
+
+### Conclusion de l'Étape 1
+
+- **Le régime de référence ne produit aucun enrichissement.**
+- **Le contraste d'intensité seul ne suffit pas.** 
+- **La localisation change tout.** 
+
+> **À retenir.** L'enrichissement de la zone en T n'est pas causé par une intensité d'activation plus élevée dans $T$ ; il apparaît lorsque le champ d'activation devient suffisamment **local en espace et en temps**.
+
+---
 ### Fichiers de l'Étape 1
 
 | Fichier | Description |
