@@ -152,6 +152,9 @@ Chaque configuration comprend cinq réplicats indépendants.
 
 L'enjeu consiste à tester si l'enrichissement dans la zone en T identifié à l'Étape 1 demeure robuste face aux modulations de la dynamique de mort et de la rétroaction ERK.
 
+### Conclusion de l'Étape 2
+Une fois le régime d'activation fixé dans une configuration modérément localisée, les paramètres de mort et d'ERK **ne suppriment pas** l'enrichissement de la zone en T : ils contrôlent principalement l'échelle de temps du processus de mort observé et n'en modulent qu'accessoirement l'amplitude.
+
 ### Fichiers de l'Étape 2
 
 | Fichier | Description |
